@@ -156,7 +156,7 @@ const Games = () => {
             setHpgames(snapshot.docs.map(doc => ({id : doc.id, ...doc.data()})))
         });
     }, []);
-    console.log(hpgames);
+    console.log("games ",hpgames);
   return (
     <Container>
         <Wrapper>

@@ -7,6 +7,7 @@ import Publishwithus from "./pages/Publishwithus";
 import PCgames from "./pages/PCgames";
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Enquiries from "./pages/Enquiries";
+import GetTrained from "./pages/GetTrained";
 
 /*<Route path="/products/:category" element={<ProductList/>} />
       <Route path="/product/:id" element={<Product/>} />
@@ -24,7 +25,8 @@ const App = () => {
       <Route path="/Mobilegames" element={<Mobilegames/>}/>
       <Route path="/Pcgames" element={<PCgames/>}/>
       <Route path="/Careers" element={<Careers/>}/>
-      <Route path="/Publishwithus" element={<Publishwithus/>}/>
+      {/* <Route path="/Publishwithus" element={<Publishwithus/>}/> */}
+      <Route path="/Gettrained" element={<GetTrained/>}/>
       <Route path="/Contactus" element={<Contactus/>}/>
       <Route path="/Careers/:jobtype" element={<Jobapp/>}/>
       <Route path="/Contactus/:enquiries" element={<Enquiries/>}/>

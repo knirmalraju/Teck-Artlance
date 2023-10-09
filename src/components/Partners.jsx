@@ -39,7 +39,8 @@ const Ulist = styled.ul`
     ${mobile({flexDirection : "column"})}
 `;
 const List = styled.img`
-    height : 25vh;
+    max-height: 25vh;
+    width: min(100% - 15px, 221px);
     padding : 20px 0px;
     ${mobile({height : "16vh", width : "86%", padding : "5px 0px"})}
 `;
